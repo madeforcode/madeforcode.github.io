@@ -23,7 +23,9 @@
       height: 90vh;
       background-color: #2196f359 !important;
     }
-
+    video,canvas{
+      max-width: 100%;
+    }
     div#wraper {
       margin: 0 auto;
       display: inline-block;
@@ -33,7 +35,8 @@
     canvas {
       position: absolute;
       left: 0;
-      top: 0;
+      top: 50%;
+      transform: translateY(-50%);
     }
     #mood div{
       transition: all .3s;
